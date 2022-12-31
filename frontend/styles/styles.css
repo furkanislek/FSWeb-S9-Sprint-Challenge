@@ -79,8 +79,8 @@ nav a.active:nth-last-of-type(2) {
 
 #grid {
   display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px;
 }
 
 #grid .square {
@@ -106,10 +106,11 @@ nav a.active:nth-last-of-type(2) {
   border-radius: 50%;
   border: 1px solid rgb(238, 238, 238);
   padding: 0.55rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   display: grid;
-  grid-template-columns: 55px 55px 55px;
-  grid-template-rows: 55px 55px 55px;
+  grid-template-columns: 55px 55px 55px 55px;
+  grid-template-rows: 55px 55px 55px 55px;
   grid-template-areas:
     ". up ."
     "left reset right"
@@ -170,7 +171,7 @@ input[type=email] {
 
 input:active {
   box-shadow: 0 0 5px #93005a;
-  border: 1px solid #93005a;
+  border: 1px solid #9;
 }
 
 footer {
